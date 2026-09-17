@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local training/evaluation snapshot requested by the project owner.
+/local_only/
+
+# Private components must not be included in the public repository.
+/MTS_Data/
+/MTS/
+
+# Runtime artifacts and credentials.
+/outputs/
+/checkpoints/
+/cache/
+*.pt
+*.pth
+*.ckpt
+.env
+.env.*
+

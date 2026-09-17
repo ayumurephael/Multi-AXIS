@@ -1,0 +1,8 @@
+torch>=2.5
+transformers>=4.57.1,<4.58
+numpy>=1.21,<3
+Pillow>=10
+matplotlib>=3.4
+
+# Formal CUDA execution additionally requires FlashAttention 2. Install it for
+# the CUDA/PyTorch combination provided by the target machine.
